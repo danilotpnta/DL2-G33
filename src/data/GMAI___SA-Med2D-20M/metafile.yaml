@@ -1,0 +1,17 @@
+displayName: SA-Med2D-20M
+labelTypes:
+- SemanticMask
+- Mask
+license: []
+mediaTypes:
+- Medical
+- Biomedical
+paperUrl: ""
+publishDate: "2023-11-21"
+publishUrl: ""
+publisher:
+- Shanghai Artificial Intelligence Laboratory
+tags: []
+taskTypes:
+- Medical-Image-Segmentation
+- Interactive Segmentation
