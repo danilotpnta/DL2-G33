@@ -22,7 +22,7 @@ from openxlab.dataset import query
 query(dataset_repo='GMAI/SA-Med2D-20M') #View Dataset File List
 
 from openxlab.dataset import get
-data_path = '/Users/datoapanta/Desktop/DL2-G33/src/data'
+data_path = '../data'
 get(dataset_repo='GMAI/SA-Med2D-20M', target_path=data_path)  # Dataset download
 
 from openxlab.dataset import download
