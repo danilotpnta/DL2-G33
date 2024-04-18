@@ -10,14 +10,11 @@ Create a conda environment and install dependencies:
 git clone https://github.com/danilotpnta/DL2-G33
 cd DL2-G33
 
-conda create -n dl2-g33 python=3.7
+conda create -n dl2-g33 python=3.8
 conda activate dl2-g33
 
 pip install -r requirements.txt
 
-# Install the according versions of torch and torchvision
-conda install pytorch torchvision cudatoolkit
-cd ..
 ```
 
 ### Dataset
