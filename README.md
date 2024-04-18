@@ -39,6 +39,13 @@ cd src/scripts
 python download_data.py
 ```
 
+To download the dataset from [HaN-Seg](https://zenodo.org/records/7442914#.ZBtfBHbMJaQ) use the following:
+
+```bash
+cd src/data
+wget https://zenodo.org/records/7442914/files/HaN-Seg.zip
+unzip HaN-Seg.zip
+```
 
 ### Checkpoint
 Download the official [sam-med2d_b.pth](https://drive.google.com/file/d/1ARiB5RkSsWmAB_8mqWnwDF8ZKTtFwsjl/view) checkpoint and put the unzip folder under `data/`.
