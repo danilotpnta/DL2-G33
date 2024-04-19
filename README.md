@@ -1,16 +1,17 @@
 # Improving SAM-Med2D
-Official implementation of ['SAM-Med2D'](https://github.com/uni-medical/SAM-Med2D).
+Official implementation of ['SAM-Med2D'](https://github.com/OpenGVLab/SAM-Med2D).
 
 
 ## Requirements
 
 ### Installation
 Create a conda environment and install dependencies:
+
 ```bash
 git clone https://github.com/danilotpnta/DL2-G33
 cd DL2-G33
 
-conda create -n dl2-g33 python=3.8
+conda create -n dl2-g33 python=3.10
 conda activate dl2-g33
 
 pip install -r requirements.txt
