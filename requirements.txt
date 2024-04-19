@@ -1,8 +1,15 @@
-acvl-utils==0.2
+numpy==1.24.4
+matplotlib
+matplotlib-inline
+scipy==1.9.1
+pandas==1.4.4
+scikit-learn
+scikit-learn-intelex==2021.4 #update to latest version
+# acvl-utils==0.2 # not used
 alabaster
-anaconda-client==1.11.0
-anaconda-navigator==2.3.1
-anaconda-project
+# anaconda-client==1.2.2 # not used
+# anaconda-navigator==2.3.1 # not used
+# anaconda-project # not used
 anyio
 appdirs==1.4.4
 argon2-cffi
@@ -16,20 +23,18 @@ Automat
 autopep8
 Babel
 backcall
-backports
-backports
-backports
+# backports
 batchgenerators==0.25
 bcrypt
 beautifulsoup4
-binaryornot
+# binaryornot # not used
 bitarray
 bkcharts==0.2
 black
 bleach
 bokeh
-boto3
-botocore
+# boto3 # not using AWS services
+# botocore # not using AWS services
 Bottleneck
 brotlipy==0.7.0
 certifi
@@ -38,29 +43,29 @@ chardet
 charset-normalizer
 click
 cloudpickle
-clyent==1.2.2
+clyent==1.2.1
 colorama
 colorcet
-conda==22.9.0
-conda-build==3.22.0
-conda-content-trust
-conda-pack
-conda-package-handling
-conda-repo-cli==1.0.20
-conda-token
-conda-verify==3.4.2
+# conda==22.9.0
+# conda-build==3.22.0
+# conda-content-trust
+# conda-pack
+# conda-package-handling
+# conda-repo-cli==1.0.20
+# conda-token
+# conda-verify==3.4.2
 connected-components-3d==3.10.5
 constantly==15.1.0
-cookiecutter
+# cookiecutter # not used
 cryptography
 cssselect==1.1.0
 cycler
 Cython
 cytoolz==0.11.0
-daal4py==2021.6.0
+daal4py==2021.4.0 # update
 dask
 datashader
-datashape==0.5.4
+datashape==0.5.2 # update
 debugpy
 decorator
 defusedxml
@@ -69,8 +74,8 @@ dicom2nifti==2.4.8
 diff-match-patch
 dill
 distributed
-docutils
-dynamic-network-architectures==0.2
+# docutils # not used
+# dynamic-network-architectures==0.2 # not used
 einops==0.6.1
 entrypoints
 et-xmlfile==1.1.0
@@ -114,8 +119,8 @@ jdcal
 jedi
 jeepney
 jellyfish
-Jinja2
-jinja2-time
+# Jinja2 # not used
+# jinja2-time # not used
 jmespath
 joblib
 json5
@@ -135,20 +140,18 @@ lazy-object-proxy
 lazy_loader
 libarchive-c
 linecache2==1.0.0
-llvmlite==0.38.0
+llvmlite==0.42.0
 locket
 lxml
 lz4
 Markdown
 markdown-it-py==3.0.0
 MarkupSafe
-matplotlib
-matplotlib-inline
 mccabe
 mdurl==0.1.2
 MedPy==0.4.0
 mistune
-mkl-fft==1.3.1
+mkl-fft # update
 mkl-random
 mkl-service==2.4.0
 mock
@@ -158,7 +161,7 @@ msgpack
 multipledispatch
 munkres==1.1.4
 mypy-extensions==0.4.3
-navigator-updater==0.3.0
+# navigator-updater==0.3.0 # not used
 nbclassic
 nbclient
 nbconvert
@@ -167,13 +170,10 @@ nest-asyncio
 networkx
 nibabel==5.1.0
 nltk
--e
--e
 nose
 notebook
-numba
+numba==0.59.1
 numexpr
-numpy==1.24.4
 numpydoc
 nvidia-cublas-cu12==12.1.3.1
 nvidia-cuda-cupti-cu12==12.1.105
@@ -191,7 +191,6 @@ olefile
 opencv-python==4.8.1.78
 openpyxl==3.0.10
 packaging
-pandas==1.4.4
 pandocfilters
 panel
 param
@@ -210,7 +209,7 @@ platformdirs
 plotly
 pluggy
 ply==3.11
-poyo
+# poyo # not used
 prefetch-generator==1.0.3
 prometheus-client
 prompt-toolkit
@@ -234,7 +233,7 @@ Pygments==2.16.1
 PyHamcrest
 PyJWT
 pylint
-pyls-spyder==0.4.0
+# pyls-spyder==0.4.0 # not used
 pyodbc
 pyOpenSSL
 pyparsing
@@ -255,7 +254,6 @@ PyWavelets
 pyxdg
 PyYAML==6.0
 pyzmq
-QDarkStyle
 qstylizer
 QtAwesome
 qtconsole
@@ -267,12 +265,9 @@ requests-file
 rich==13.6.0
 rope
 Rtree
-ruamel-yaml-conda
+# ruamel-yaml-conda # not used
 s3transfer
 scikit-image
-scikit-learn
-scikit-learn-intelex==2021.20221004.171807
-scipy==1.9.1
 Scrapy
 seaborn
 SecretStorage
@@ -288,21 +283,21 @@ snowballstemmer
 sortedcollections
 sortedcontainers
 soupsieve
-Sphinx
-sphinxcontrib-applehelp
-sphinxcontrib-devhelp
-sphinxcontrib-htmlhelp
-sphinxcontrib-jsmath
-sphinxcontrib-qthelp
-sphinxcontrib-serializinghtml
-spyder
-spyder-kernels
+# Sphinx # not used
+# sphinxcontrib-applehelp
+# sphinxcontrib-devhelp
+# sphinxcontrib-htmlhelp
+# sphinxcontrib-jsmath
+# sphinxcontrib-qthelp
+# sphinxcontrib-serializinghtml
+# spyder # not used
+# spyder-kernels # not used
 SQLAlchemy
 statsmodels
 sympy
 tables
 tabulate
-TBB==0.2
+TBB==2021.3.0
 tblib
 tenacity
 terminado
@@ -318,11 +313,11 @@ toml
 tomli
 tomlkit
 toolz
-torch==2.1.0
-torchaudio==2.0.2
-torchinfo==1.8.0
-torchio==0.19.1
-torchvision==0.16.0
+torch==2.1.0 # downgrade to work w/ torchaudio
+torchaudio
+torchinfo
+torchio
+torchvision
 tornado
 tqdm
 traceback2==1.4.0
