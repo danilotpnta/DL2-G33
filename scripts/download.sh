@@ -1,7 +1,7 @@
 save_folder=$(pwd)/datasets
 
 if [ ! -d $save_folder ]; then
-    GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/datasets/GoodBaiBai88/M3D-Seg $save_folder
+    GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --recursive
 fi
 
 # Dataset should follow the format of 0000-0018

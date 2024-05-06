@@ -1,3 +1,4 @@
 [submodule "datasets"]
-    url = https://huggingface.co/datasets/GoodBaiBai88/M3D-Seg
-    path = datasets
+	path = datasets
+	url = https://huggingface.co/datasets/GoodBaiBai88/M3D-Seg
+    ignore = all
