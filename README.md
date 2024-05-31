@@ -59,12 +59,6 @@ cd src/scripts
 python download_checkpoint.py
 ```
 
-## Get Started
-
-### Stuff here
-### Stuff here
-
-
 ## Acknowlegment
 This repo benefits from [CLIP](https://github.com/openai/CLIP), and the excellent database from [MICCAI2023](https://conferences.miccai.org/). Thanks for their wonderful works.
 
