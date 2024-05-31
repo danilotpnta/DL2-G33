@@ -1,47 +1,43 @@
-# Improving SAM-Med2D
-Official implementation of ['SAM-Med2D'](https://github.com/uni-medical/SAM-Med2D).
+# Improving SegVol
+Official implementation of ['SegVol'](https://github.com/BAAI-DCAI/SegVol).
 
 
 ## Requirements
 
 ### Installation
 Create a conda environment and install dependencies:
+
 ```bash
 git clone https://github.com/danilotpnta/DL2-G33
 cd DL2-G33
 
-conda create -n dl2-g33 python=3.7
-conda activate dl2-g33
+conda create -n SegVol python=3.10
+conda activate SegVol
 
 pip install -r requirements.txt
-
-# Install the according versions of torch and torchvision
-conda install pytorch torchvision cudatoolkit
-cd ..
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ### Dataset
-Download the official [SA-Med2D-20M](https://huggingface.co/datasets/OpenGVLab/SA-Med2D-20M/tree/main) dataset and put the unzip folder under `data/`.
+Download the official [M3D-Seg](https://huggingface.co/datasets/GoodBaiBai88/M3D-Seg) dataset and put the unzip folder under `data/`.
 The directory structure should be:
 ```bash
 │DL2-G33/
 ├──...
 ├──data/
-│   ├──GMAI___SA-Med2D-20M/
+│   ├──GM3D_Seg/
 ├──...
 ```
-### 
 
-Alternatively you can run the following script to download the dataset
-
+To download the demo-dataset from [Abdomenct-12organ](https://zenodo.org/records/7860267) use the following:
 ```bash
-cd src/scripts
-python download_data.py
+cd src/data
+wget https://zenodo.org/records/7860267/files/FLARE22Train.zip
+unzip FLARE22Train.zip
 ```
 
-
 ### Checkpoint
-Download the official [sam-med2d_b.pth](https://drive.google.com/file/d/1ARiB5RkSsWmAB_8mqWnwDF8ZKTtFwsjl/view) checkpoint and put the unzip folder under `data/`.
+Download the official [SegVol_v1.pth](https://drive.google.com/drive/folders/1TEJtgctH534Ko5r4i79usJvqmXVuLf54?usp=drive_link) checkpoint and put the unzip folder under `data/`.
 The directory structure should be:
 ```bash
 │DL2-G33/
@@ -52,12 +48,6 @@ The directory structure should be:
 ```
 ### 
 
-Alternatively you can run the following script to download the dataset
-
-```bash
-cd src/scripts
-python download_checkpoint.py
-```
 
 ## Acknowlegment
 This repo benefits from [CLIP](https://github.com/openai/CLIP), and the excellent database from [MICCAI2023](https://conferences.miccai.org/). Thanks for their wonderful works.
